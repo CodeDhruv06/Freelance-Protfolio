@@ -42,6 +42,13 @@ const ProjectsSection: React.FC = () => {
       image: 'https://images.pexels.com/photos/267350/pexels-photo-267350.jpeg?auto=compress&cs=tinysrgb&w=600',
       url:'https://monetra.netlify.app/'
     },
+    {
+      title: 'ExceliDraw',
+      description: 'An Online Drawing Application with collaborative features and a user-friendly interface.',
+      tools: ['next.js', 'PostgreSQL', 'Prisma', 'Websocket.io',],
+      image: 'https://images.pexels.com/photos/267350/pexels-photo-267350.jpeg?auto=compress&cs=tinysrgb&w=600',
+      url:'https://draw-app-brown-omega.vercel.app'
+    },
   ];
 
   return (
