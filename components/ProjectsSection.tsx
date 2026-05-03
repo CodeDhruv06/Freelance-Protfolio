@@ -18,7 +18,7 @@ const ProjectsSection: React.FC = () => {
       title: 'ChitChat',
       description: 'A decentralized chat application using MERN framework and socket connectivity.',
       tools: ['Next.js', 'MongoDB', 'TypeScript', 'Tailwind', 'Socket.io'],
-      image: 'https://images.pexels.com/photos/8728380/pexels-photo-8728380.jpeg?auto=compress&cs=tinysrgb&w=600',
+      image: '/chitchat.png',
       url: 'https://chit-chat-1ze4.vercel.app'
     },
     {
@@ -27,13 +27,6 @@ const ProjectsSection: React.FC = () => {
       tools: ['React', 'Tailwind', 'TypeScript', 'MongoDB', 'Node', 'Framer Motion' , 'GSAP'],
       image: 'https://images.pexels.com/photos/6771985/pexels-photo-6771985.jpeg?auto=compress&cs=tinysrgb&w=600',
       url: 'https://grouply.netlify.app/'
-    },
-    {
-      title: 'Chatzee',
-      description: 'Real-time chat Application for seamless communication with friends and family.',
-      tools: ['Socket.io', 'React', 'MongoDB', 'Node', 'Express', 'GSAP'],
-      image: 'https://images.pexels.com/photos/163064/play-stone-network-networked-interactive-163064.jpeg?auto=compress&cs=tinysrgb&w=600',
-      url:'https://chat-app-project-five.vercel.app/'
     },
     {
       title: 'Monetra',
@@ -46,7 +39,7 @@ const ProjectsSection: React.FC = () => {
       title: 'ExceliDraw',
       description: 'An Online Drawing Application with collaborative features and a user-friendly interface.',
       tools: ['next.js', 'PostgreSQL', 'Prisma', 'Websocket.io',],
-      image: 'https://images.pexels.com/photos/267350/pexels-photo-267350.jpeg?auto=compress&cs=tinysrgb&w=600',
+      image: '/draw.png',
       url:'https://draw-app-brown-omega.vercel.app'
     },
   ];

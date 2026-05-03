@@ -24,14 +24,6 @@ const TeamSection: React.FC = () => {
       bio: 'Specializes in Next.js, Socket.io, and React.js. Focuses on end-to-end development and system integration.',
     },
     {
-      name: 'Himanshu Tiwari',
-      role: 'Frontend Developer',
-      photo: '/himanshu.jpg',
-      github: 'https://github.com/himanshu200430',
-      linkedin: 'https://www.linkedin.com/in/himanshu-tiwari-b83294374?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
-      bio: 'Expert in React.js, CSS Frameworks, Framer Motion. Builds awesome looking Faces of Websites.',
-    },
-    {
       name: 'Dhruv Sharma',
       role: 'Full Stack Developer',
       photo: '/dhruv.jpg',

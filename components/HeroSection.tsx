@@ -10,10 +10,6 @@ const HeroSection: React.FC = () => {
       photo: '/mayank.jpg',
     },
     {
-      name: 'Himanshu Tiwari',
-      photo: '/himanshu.jpg',
-    },
-    {
       name: 'Dhruv Sharma',
       photo: '/dhruv.jpg',
     },
@@ -110,7 +106,7 @@ const HeroSection: React.FC = () => {
             {members.map((member, index) => (
               <motion.div
                 key={index}
-                className="w-16 h-16 md:w-20 md:h-20 rounded-full overflow-hidden border-2 border-cyan-500/30 bg-gray-800"
+                className="w-16 h-16 md:w-28 md:h-28 rounded-full overflow-hidden border-2 border-cyan-500/30 bg-gray-800"
                 initial={{ opacity: 0, x: -20 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.5 + index * 0.1, duration: 0.5 }}
